@@ -1,0 +1,213 @@
+<ModulePosting 
+Mode="Test" 
+CPKFile="" 
+TypeOfPost="Post">
+
+<Company 
+Address1="P.O. Box 270339" 
+Address2="" 
+AltPhone="" 
+AltPhoneExt="" 
+City="San Diego" 
+CompanyCode="" 
+CompanyData="" 
+CompanyID="140972707" 
+ContractNumber="" 
+CountyMutual="" 
+EMail="" 
+Fax="" 
+GenericFinanceAmountNotFinanced="100" 
+GenericFinanceAmountNotFinanced2="100" 
+GenericFinanceAPRCharge="0" 
+GenericFinanceAPRCharge2="0" 
+GenericFinanceAPR_FlatChargeAmount="31" 
+GenericFinanceAPR_FlatChargeAmount2="31" 
+GenericFinanceFlatCharge="1" 
+GenericFinanceFlatCharge2="1" 
+GenericFinanceNumberOfPayments="8" 
+GenericFinanceNumberOfPayments2="4" 
+GenericFinancePercentDown="23" 
+GenericFinancePercentDown2="23" 
+NAICCode="" 
+Password="" 
+Phone="(800) 959-9956" 
+PhoneExt="" 
+State="CA" 
+WEB="reliantgeneral.com" 
+WebRecordID="0" 
+ZipCode="92198" 
+CMPProductID="4252">
+
+<Product 
+AgentCommission="0" 
+Commission="0" 
+CompanyName="Reliant Occidental II" 
+DOSCompanyID="99999996" 
+EffDate="08/01/2015" 
+FinanceCompanyID="-1" 
+FlexBandCompany="0" 
+FlexBandFile="" 
+FlexBandStateRateID="0" 
+FlexBandStateRateVersion="0" 
+HRiskFileName="" 
+HRiskPrompt="" 
+IndependentPF="0"
+IntegCustomCode="0"
+IntegFormat="16"
+IntegModule=""
+IntegPathName="ReliantXMLSSBBridgeCA"
+RateModule="" 
+RateRevision="65536" 
+ReleaseRevision="65535" 
+SymFileName="" 
+SymPrompt="" 
+TerrFileName="" 
+TerrPrompt="" 
+UseMonthlyBreakdown="0" 
+CMPProductID="4252" 
+CompanyID="140972707" 
+IsIsoBased="false">
+
+<PremFinProgram IsDefault="1" PFProgramID="0" Title="Direct Bill">
+
+    <PremFinPayPlan
+    Description="Paid In Full"
+    IsDefault="0"
+    IsDiscounted="0"
+    NumOfPayments="1"
+    PayPlanID="0"
+    PercentDown="100"
+    Term="6"/>
+
+    <PremFinPayPlan
+    Description="5 payments, 16.7% down"
+    IsDefault="1"
+    IsDiscounted="0"
+    NumOfPayments="5"
+    PayPlanID="1"
+    PercentDown="16.7"
+    Term="6"/>
+
+    <PremFinPayPlan
+    Description="4 payments, 20% down (EFT only)"
+    IsDefault="0"
+    IsDiscounted="0"
+    NumOfPayments="4"
+    PayPlanID="4"
+    PercentDown="20"
+    Term="6"/>
+
+    <PremFinPayPlan
+    Description="2 payments, 33.3% down"
+    IsDefault="0"
+    IsDiscounted="0"
+    NumOfPayments="2"
+    PayPlanID="3"
+    PercentDown="33.3"
+    Term="6"/>
+
+    <PremFinPayPlan
+    Description="4 payments, 20% down"
+    IsDefault="0"
+    IsDiscounted="0"
+    NumOfPayments="4"
+    PayPlanID="4"
+    PercentDown="20"
+    Term="6"/>
+
+
+    <PremFinPayPlan
+    Description="5 payments, 25% down"
+    IsDefault="1"
+    IsDiscounted="0"
+    NumOfPayments="5"
+    PayPlanID="5"
+    PercentDown="25"
+    Term="6"/>
+
+    <PremFinPayPlan
+    Description="5 payments, 25% down (EFT only)"
+    IsDefault="1"
+    IsDiscounted="0"
+    NumOfPayments="5"
+    PayPlanID="6"
+    PercentDown="25"
+    Term="6"/>
+
+
+</PremFinProgram>
+
+<CompanyQuestion
+CompanyQuestionID="0"
+DefaultValue="Yes"
+EditMask=""
+EntryType="6"
+FieldName="ReliantOccidentalIINamedDriver"
+Hidden="0"
+Hint="Select Yes/No to apply Named Driver coverage."
+MaxLength="0"
+Prompt="Named Driver Coverage?"
+Scope="0"
+Sorted="0"
+Validation="No;Yes"/>
+
+<CompanyQuestion
+CompanyQuestionID="1"
+DefaultValue="No"
+EditMask=""
+EntryType="6"
+FieldName="ReliantOccidentalIIDoubleDeductible"
+Hidden="0"
+Hint="Select Yes/No to apply Double Deductible option."
+MaxLength="0"
+Prompt="Apply Double Deductible option?"
+Scope="0"
+Sorted="0"
+Validation="No;Yes"/>
+
+<CompanyQuestion
+CompanyQuestionID="2"
+DefaultValue="0"
+EditMask=""
+EntryType="1"
+FieldName="ReliantOccidentalIIFFSAmount"
+Hidden="1"
+Hint="Enter the fee for service amount (0-99)."
+MaxLength="2"
+Prompt="Fee for service amount?"
+Scope="0"
+Sorted="0"
+Validation=""/>
+
+<CompanyQuestion
+CompanyQuestionID="3"
+DefaultValue="No"
+EditMask=""
+EntryType="6"
+FieldName="ReliantOccidentalIIMotorClub"
+Hidden="0"
+Hint="Select Yes/No to apply Motor Club coverage to this vehicle."
+MaxLength="0"
+Prompt="Motor Club coverage?"
+Scope="0"
+Sorted="0"
+Validation="No;Yes"/>
+
+    
+    <Program
+AgentCommission="0" 
+Commission="0" 
+EffDate="08/01/2015" 
+ProgramID="0" 
+ProgramName=""/>
+    
+<Program 
+AgentCommission="0" 
+Commission="0" 
+EffDate="08/01/2015" 
+ProgramID="1" 
+ProgramName="Fee for Service"/>
+
+</Product>
+</Company>
+</ModulePosting>
