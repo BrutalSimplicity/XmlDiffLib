@@ -121,15 +121,5 @@ namespace XmlDiffLib.Tests {
                 return ResourceManager.GetString("HAAR01001", resourceCulture);
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] RELI0815 {
-            get {
-                object obj = ResourceManager.GetObject("RELI0815", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
     }
 }
