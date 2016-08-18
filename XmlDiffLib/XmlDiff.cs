@@ -341,7 +341,7 @@ namespace XmlDiffLib
               {
                 XPath = GetXPath(xFrom),
                 DiffType = XmlDiffNode.DiffTypes.Removed,
-                Description = "No matching node found. Closest matching error info shown:" + Environment.NewLine + bestMatchNode.Item2[0].XPath + Environment.NewLine + bestMatchNode.Item2[0].Description,
+                Description = "No matching node found.",
                 DiffNodeType = XmlDiffNode.DiffNodeTypes.Node,
                 Descendants = (options.MatchDescendants) ? bestMatchNode.Item2 : null,
                 Origin = fromFilename,
@@ -536,17 +536,15 @@ namespace XmlDiffLib
 
     private string EscapeQuotes(string s)
     {
-      StringBuilder result = new StringBuilder();
-
-      foreach (char c in s)
+      char[] str = new char[s.Length * 2];
+      int c_idx = 0;
+      for (int idx = 0; idx < s.Length; idx++, c_idx++)
       {
-        if (c == '\"')
-          result.Append("\\\"");
-        else
-          result.Append(c);
+        if (s[idx] == '"' || s[idx] == '\\')
+          str[c_idx++] = '\\';
+        str[c_idx] = s[idx];
       }
-
-      return result.ToString();
+      return new string(str, 0, c_idx);
     }
 
 
@@ -600,6 +598,11 @@ namespace XmlDiffLib
 
     public override string ToString()
     {
+      return ToJsonString();
+    }
+
+    public virtual string ToJsonString()
+    {
       const int IndentSize = 3;
       // define and assign delegate before definition so that
       // the delegate is captured by the recursive call
@@ -608,23 +611,45 @@ namespace XmlDiffLib
         (diffList, depth) =>
         {
           StringBuilder diffLine = new StringBuilder();
+          if (depth == 0)
+          {
+            diffLine.AppendLine("{");
+            depth++;
+            diffLine.AppendLine("\"DiffNodeList\": ");
+            depth++;
+          }
+          diffLine.AppendLine(new string(' ', depth * IndentSize) + "[");
+          depth++;
           foreach (XmlDiffNode node in diffList)
           {
+            diffLine.AppendLine(new string(' ', depth * IndentSize) + "{");
+            depth++;
             string[] lines = ToString(node).Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
-            diffLine.AppendLine(new String(' ', depth * IndentSize) + lines[0]);
-            diffLine.AppendLine(new String(' ', depth * IndentSize) + lines[1]);
-            diffLine.AppendLine(new String(' ', depth * IndentSize) + lines[2]);
+            foreach (var line in lines.Take(lines.Count() - 1))
+            {
+              diffLine.AppendLine(new String(' ', depth * IndentSize) + line);
+            }
 
             if (node.DiffNodeType == XmlDiffNode.DiffNodeTypes.Node && node.Descendants != null)
             {
-              diffLine.AppendLine(new String(' ', (depth + 1) * IndentSize) + "{");
-              diffLine.AppendLine(walkToString(node.Descendants, depth + 1).TrimEnd('\r', '\n'));
-              diffLine.AppendLine(new String(' ', (depth + 1) * IndentSize) + "}");
+              diffLine.AppendLine(new string(' ', depth * IndentSize) + lines.Last());
+              diffLine.AppendLine(new string(' ', depth * IndentSize) + "\"Descendants\": ");
+              diffLine.AppendLine(walkToString(node.Descendants, depth + 1));
             }
+            else
+              diffLine.AppendLine(new string(' ', depth * IndentSize) + lines.Last().TrimEnd(','));
 
-            diffLine.AppendLine();
+            depth--;
+            diffLine.AppendLine(new string(' ', depth * IndentSize) + "},");
           }
-
+          diffLine.Replace(",", "", diffLine.Length - 5, 5);
+          depth--;
+          diffLine.AppendLine(new string(' ', depth * IndentSize) + "]");
+          depth -= 2;
+          if (depth == 0)
+          {
+            diffLine.AppendLine(new string(' ', depth * IndentSize) + "}");
+          }
           return diffLine.ToString();
         };
 
@@ -634,32 +659,34 @@ namespace XmlDiffLib
     public string ToString(XmlDiffNode node)
     {
       StringBuilder diffLine = new StringBuilder();
+
+      diffLine.Append("\"Edit\": ");
       switch (node.DiffType)
       {
         case XmlDiffNode.DiffTypes.Removed:
-          diffLine.Append(" (-) ");
+          diffLine.AppendLine("\"Delete\",");
           break;
         case XmlDiffNode.DiffTypes.Added:
-          diffLine.Append(" (+) ");
+          diffLine.AppendLine("\"Insert\",");
           break;
         case XmlDiffNode.DiffTypes.Changed:
-          diffLine.Append(" (*) ");
+          diffLine.AppendLine("\"Update\",");
           break;
         default:
           break;
       }
 
-      diffLine.AppendLine("    XPath: " + node.XPath);
+      diffLine.AppendLine("\"XPath\": " + "\"" + EscapeQuotes(node.XPath) + "\",");
 
-      diffLine.AppendLine("  ===>>> Diff ID: " + node.DiffId);
+      diffLine.AppendLine("\"Diff ID\": " + "\"" + node.DiffId + "\",");
 
-      diffLine.AppendLine("  ===>>> Description: " + node.Description);
+      diffLine.AppendLine("\"Description\": " + "\"" + EscapeQuotes(node.Description) + "\",");
 
-      diffLine.AppendLine("  ===>>> Node Type: " + node.DiffNodeType);
+      diffLine.AppendLine("\"Node Type\": " + "\"" + node.DiffNodeType + "\",");
 
-      diffLine.AppendLine("  ===>>> Origin Line No: " + node.OriginLineNo);
+      diffLine.AppendLine("\"Origin Line No\": " + node.OriginLineNo + ",");
 
-      diffLine.AppendLine("  ===>>> Comp Line No: " + node.CompLineNo);
+      diffLine.AppendLine("\"Comp Line No\": " + node.CompLineNo + ",");
 
       return diffLine.ToString();
     }
