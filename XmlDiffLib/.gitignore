@@ -244,6 +244,4 @@ ModelManifest.xml
 # FAKE - F# Make
 .fake/
 
-*.nuspec
-
 *.nupkg

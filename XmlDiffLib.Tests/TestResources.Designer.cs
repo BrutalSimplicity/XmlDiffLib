@@ -61,6 +61,58 @@ namespace XmlDiffLib.Tests {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;catalog&gt;
+        ///  &lt;book id=&quot;bk101&quot;&gt;
+        ///    &lt;author&gt;Gambardella, Matthew&lt;/author&gt;
+        ///    &lt;title&gt;XML Developer&apos;s Guide&lt;/title&gt;
+        ///    &lt;genre&gt;Computer&lt;/genre&gt;
+        ///    &lt;price&gt;44.95&lt;/price&gt;
+        ///    &lt;publish_date&gt;2000-10-01&lt;/publish_date&gt;
+        ///    &lt;description&gt;
+        ///      An in-depth look at creating applications
+        ///      with XML.
+        ///    &lt;/description&gt;
+        ///  &lt;/book&gt;
+        ///  &lt;book id=&quot;bk102&quot;&gt;
+        ///    &lt;author&gt;Ralls, Kim&lt;/author&gt;
+        ///    &lt;title&gt;Midnight Rain&lt;/title&gt;
+        ///    &lt;genre&gt;Fantasy&lt;/genre&gt;
+        ///    &lt;price&gt;5.95&lt;/price&gt;
+        ///    &lt;publish_date&gt;2000-12-16&lt;/publish_ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string exampleA {
+            get {
+                return ResourceManager.GetString("exampleA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;catalog&gt;
+        ///  &lt;book id=&quot;bk101&quot;&gt;
+        ///    &lt;author&gt;Gambardella, Matthew&lt;/author&gt;
+        ///    &lt;title&gt;XML Developer&apos;s Guide&lt;/title&gt;
+        ///    &lt;genre&gt;Computer&lt;/genre&gt;
+        ///    &lt;price&gt;44.95&lt;/price&gt;
+        ///    &lt;publish_date&gt;2015-10-12&lt;/publish_date&gt;
+        ///    &lt;description&gt;
+        ///      An in-depth look at creating applications
+        ///      with XML.
+        ///    &lt;/description&gt;
+        ///  &lt;/book&gt;
+        ///  &lt;book id=&quot;bk102&quot;&gt;
+        ///    &lt;author&gt;Ralls, Kim&lt;/author&gt;
+        ///    &lt;title&gt;Midnight Rain&lt;/title&gt;
+        ///    &lt;genre&gt;Mystery&lt;/genre&gt;
+        ///    &lt;price&gt;5.95&lt;/price&gt;
+        ///    &lt;publish_date&gt;2016-02-16&lt;/publish_ [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string exampleB {
+            get {
+                return ResourceManager.GetString("exampleB", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;ModulePosting
         ///	CPKFile=&quot;&quot;
         ///	Mode=&quot;Test&quot;
@@ -83,7 +135,8 @@ namespace XmlDiffLib.Tests {
         ///		GenericFinanceAPRCharge2=&quot;0&quot;
         ///		GenericFinanceAPR_FlatChargeAmount=&quot;31&quot;
         ///		GenericFinanceAPR_FlatChargeAmount2=&quot;31&quot;
-        ///		GenericFinanceAmountNotFinanced=&quot;100 [rest of string was truncated]&quot;;.
+        ///		GenericFinanceAmountNotFinanced=&quot;100&quot;
+        ///		GenericFinanceAmou [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HAAR01000 {
             get {
@@ -114,7 +167,8 @@ namespace XmlDiffLib.Tests {
         ///		GenericFinanceAPRCharge2=&quot;0&quot;
         ///		GenericFinanceAPR_FlatChargeAmount=&quot;31&quot;
         ///		GenericFinanceAPR_FlatChargeAmount2=&quot;31&quot;
-        ///		GenericFinanceAmountNotFinanced=&quot;100 [rest of string was truncated]&quot;;.
+        ///		GenericFinanceAmountNotFinanced=&quot;100&quot;
+        ///		GenericFinanceAmou [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HAAR01001 {
             get {

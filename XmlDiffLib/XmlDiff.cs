@@ -357,8 +357,23 @@ namespace XmlDiffLib
             XPathNavigator xToParent = xTo.Clone();
             if (nodeInfo != null)
             {
-              nodeInfo.DiffId = (diffNumber++).ToString();
+              nodeInfo.DiffId = (diffNumber++).ToString() + ".1";
               nodeInfo.XPath = GetXPath(xFrom);
+              nodeInfo.DiffNodeType = XmlDiffNode.DiffNodeTypes.Node;
+              diffNodeList.Add(new XmlDiffNode
+              {
+                XPath = GetXPath(xFrom),
+                DiffType = XmlDiffNode.DiffTypes.Removed,
+                Description = "Node not found",
+                DiffNodeType = XmlDiffNode.DiffNodeTypes.Tag,
+                Origin = fromFilename,
+                Comparison = toFilename,
+                OriginLineNo = ((IXmlLineInfo)xFrom).LineNumber,
+                CompLineNo = ((IXmlLineInfo)xToParent).LineNumber,
+                DiffId = (diffNumber).ToString(),
+                Descendants = new List<XmlDiffNode>() { nodeInfo }
+              });
+              
               diffNodeList.Add(nodeInfo);
             }
             else
@@ -630,7 +645,7 @@ namespace XmlDiffLib
               diffLine.AppendLine(new String(' ', depth * IndentSize) + line);
             }
 
-            if (node.DiffNodeType == XmlDiffNode.DiffNodeTypes.Node && node.Descendants != null)
+            if (node.Descendants != null)
             {
               diffLine.AppendLine(new string(' ', depth * IndentSize) + lines.Last());
               diffLine.AppendLine(new string(' ', depth * IndentSize) + "\"Descendants\": ");

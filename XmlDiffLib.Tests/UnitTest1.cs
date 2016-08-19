@@ -27,15 +27,15 @@ namespace XmlDiffLib.Tests
       node.Attributes["EffDate"].Value = "01/01/3000";
       diff = new XmlDiff(TestResources.HAAR01000, xdoc.InnerXml, "HAAR01000", "HAAR01001");
       diff.CompareDocuments(options);
-      Assert.AreEqual(diff.DiffNodeList.Count, 1);
-      Assert.IsTrue(diff.DiffNodeList[0].Description.Contains("EffDate"));
+      Assert.AreEqual(diff.DiffNodeList.Count, 2);
+      Assert.IsTrue(diff.DiffNodeList[1].Description.Contains("EffDate"));
       xdoc.LoadXml(TestResources.HAAR01001);
       node = xdoc.SelectSingleNode("//Company");
       node.Attributes["CompanyID"].Value = "1000";
       diff = new XmlDiff(TestResources.HAAR01000, xdoc.InnerXml);
       diff.CompareDocuments(options);
-      Assert.AreEqual(diff.DiffNodeList.Count, 1);
-      Assert.IsTrue(diff.DiffNodeList[0].Description.Contains("CompanyID"));
+      Assert.AreEqual(diff.DiffNodeList.Count, 2);
+      Assert.IsTrue(diff.DiffNodeList[1].Description.Contains("CompanyID"));
     }
   }
 }

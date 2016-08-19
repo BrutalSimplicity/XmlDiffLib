@@ -1,23 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ACORD>
-	<SignonRq>
-		<SignonPswd>
-			<CustId>
-				<SPName>turborater.com</SPName>
-				<CustLoginId>8785-0000-NV</CustLoginId>
-			</CustId>
-			<CustPswd>
-				<EncryptionTypeCd>None</EncryptionTypeCd>
-			</CustPswd>
-		</SignonPswd>
-		<ClientDt>2015-12-01T13:06:18</ClientDt>
-		<CustLangPref>EN-US</CustLangPref>
-		<ClientApp>
-			<Org>Insurance Technologies Corporation</Org>
-			<Name/>
-			<Version/>
-		</ClientApp>
-	</SignonRq>
 	<InsuranceSvcRq>
 		<RqUID/>
 		<PersAutoPolicyQuoteInqRq>
