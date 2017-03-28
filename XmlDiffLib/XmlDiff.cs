@@ -64,7 +64,7 @@ namespace XmlDiffLib
     }
   }
 
-  public class XmlDiff
+  public class XmlDiffOld
   {
     private XPathDocument xmlFromDoc;
     private XPathDocument xmlToDoc;
@@ -277,7 +277,7 @@ namespace XmlDiffLib
         {
           if (options.IgnoreNodes.Contains(xFrom.NodeType))
             continue;
-
+          
           XmlDiffNode nodeInfo;
           if (!options.IgnoreChildOrder)
             isMatch = MatchElement(xFrom, xTo, out nodeInfo);

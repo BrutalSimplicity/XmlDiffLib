@@ -41,12 +41,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnnotatedTree.cs" />
-    <Compile Include="ITreeNode.cs" />
+    <Compile Include="Diff\Base\TreeDiff.cs" />
+    <Compile Include="Diff\Base\TreeDiffNode.cs" />
+    <Compile Include="Diff\Base\TreeDiffNodeComparer.cs" />
+    <Compile Include="Diff\Xml\XmlDiff.cs" />
+    <Compile Include="Diff\Xml\XmlDiffNode.cs" />
+    <Compile Include="Diff\Xml\XmlDiffOld.cs" />
+    <Compile Include="Diff\Xml\XmlDiffOptions.cs" />
+    <Compile Include="Diff\Xml\XmlTreeBuilder.cs" />
+    <Compile Include="Diff\Xml\XmlTreeNodeComparer.cs" />
+    <Compile Include="Diff\Xml\XmlTreeNodeNameResolver.cs" />
+    <Compile Include="NodeTrees\Base\AnnotatedTree.cs" />
+    <Compile Include="NodeTrees\Base\INameResolver.cs" />
+    <Compile Include="NodeTrees\Base\ITreeNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TreeIterators.cs" />
-    <Compile Include="XmlDiff.cs" />
-    <Compile Include="XmlTreeNode.cs" />
+    <Compile Include="NodeTrees\Base\TreeIterators.cs" />
+    <Compile Include="NodeTrees\Xml\XmlTreeNode.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="XmlDiffLib.nuspec">
@@ -56,6 +66,7 @@
   <ItemGroup>
     <Content Include=".gitignore" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
