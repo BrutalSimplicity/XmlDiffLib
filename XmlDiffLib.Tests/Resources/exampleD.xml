@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<response>
+	<row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/1" _id="1" _position="1" _uuid="4B241118-A114-4AA2-893F-59059022B5B6">
+			<name>SAVE-A-LOT</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21217</zipcode>
+			<neighborhood>Bolton Hill</neighborhood>
+			<councildistrict>11</councildistrict>
+			<policedistrict>CENTRAL</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;250 MCMECHEN st&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/2" _id="2" _position="2" _uuid="9342D707-143B-4BAB-9C43-DF072B5BA0DD">
+			<name>ALDI</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21215</zipcode>
+			<neighborhood>Ashburton</neighborhood>
+			<councildistrict>6</councildistrict>
+			<policedistrict>NORTHWESTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;3601 COLD SPRING LN&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/3" _id="3" _position="3" _uuid="5DAF95E4-6E26-42D7-9B49-CFEBDE6FD226">
+			<name>ALDI     (A.K.A. 3000 ATCO AVENUE)</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21230</zipcode>
+			<neighborhood>Morrell Park</neighborhood>
+			<councildistrict>10</councildistrict>
+			<policedistrict>SOUTHWESTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;3140 WASHINGTON BLVD&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/4" _id="4" _position="4" _uuid="F73AE7CC-1CEC-4371-A80B-F73ECAD5B40F">
+			<name>SAVE A LOT OF FELLS  POINT</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21231</zipcode>
+			<neighborhood>Fells Point</neighborhood>
+			<councildistrict>1</councildistrict>
+			<policedistrict>SOUTHEASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;517 BROADWAY&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/5" _id="5" _position="5" _uuid="E6D35948-1838-4EBD-A458-64DB2D9EFDDF">
+			<name>SAFEWAY, INC.</name>
+			<type>Full Supermarket</type>
+			<zipcode>21218</zipcode>
+			<neighborhood>Charles Village</neighborhood>
+			<councildistrict>12</councildistrict>
+			<policedistrict>NORTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;2401 CHARLES ST&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/6" _id="6" _position="6" _uuid="7E70CC8D-C919-4B19-B4C8-3A39333BB125">
+			<name>SANTONI'S, INC.</name>
+			<type>Small Supermarket</type>
+			<zipcode>21224</zipcode>
+			<neighborhood>Baltimore Highlands</neighborhood>
+			<councildistrict>2</councildistrict>
+			<policedistrict>SOUTHEASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;3800 LOMBARD ST&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/7" _id="7" _position="7" _uuid="F3335CD2-D369-44E5-856B-F3A9F563EE01">
+			<name>SHOPPERS FOOD &amp; PHARMACY # 7567</name>
+			<type>Full Supermarket</type>
+			<zipcode>21224</zipcode>
+			<neighborhood>Pulaski Industrial Area</neighborhood>
+			<councildistrict>2</councildistrict>
+			<policedistrict>SOUTHEASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;6500 EASTERN AVE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/8" _id="8" _position="8" _uuid="033B2AA7-1489-43F0-B3A2-A5458A729BDB">
+			<name>SAVE-ON-FOOD SUPERMARKET</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21225</zipcode>
+			<neighborhood>Brooklyn</neighborhood>
+			<councildistrict>10</councildistrict>
+			<policedistrict>SOUTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;413 PATAPSCO AVE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/9" _id="9" _position="9" _uuid="715F2D60-7F3E-4B33-9C5B-61DEE02A53FA">
+			<name>GIANT FOOD STORE # 317</name>
+			<type>Full Supermarket</type>
+			<zipcode>21229</zipcode>
+			<neighborhood>Hunting Ridge</neighborhood>
+			<councildistrict>8</councildistrict>
+			<policedistrict>SOUTHWESTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;4624 EDMONDSON AVE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/10" _id="10" _position="10" _uuid="9B16FC40-A2D4-4D1D-946D-BF410DC64CFD">
+			<name>STOP, SHOP &amp; SAVE</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21217</zipcode>
+			<neighborhood>Bridgeview/Greenlawn</neighborhood>
+			<councildistrict>7</councildistrict>
+			<policedistrict>WESTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;1400 MONROE ST&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/11" _id="11" _position="11" _uuid="5937F7EA-21A8-4313-88A3-D6E97CB4D9DD">
+			<name>STOP-SHOP &amp; SAVE</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21201</zipcode>
+			<neighborhood>Upton</neighborhood>
+			<councildistrict>11</councildistrict>
+			<policedistrict>CENTRAL</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;1101 PENNSYLVANIA AVE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/12" _id="12" _position="12" _uuid="F05413AC-7B9D-4EE2-B4AF-2B50B1B1AEAB">
+			<name>SAM'S CLUB # 4771</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21230</zipcode>
+			<neighborhood>Port Covington</neighborhood>
+			<councildistrict>10</councildistrict>
+			<policedistrict>SOUTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;2601 PORT COVINGTON dr&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/13" _id="13" _position="13" _uuid="0B0FCE84-C061-49A9-9237-5DF56B61DB10">
+			<name>STOP-SHOP &amp; SAVE</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21202</zipcode>
+			<neighborhood>Oliver</neighborhood>
+			<councildistrict>12</councildistrict>
+			<policedistrict>EASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;1600 HARFORD AVE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/14" _id="14" _position="14" _uuid="BD62A52E-864A-4D50-AF0F-901F992B5E59">
+			<name>ALDI,  INC.</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21224</zipcode>
+			<neighborhood>Ellwood Park/Monument</neighborhood>
+			<councildistrict>1</councildistrict>
+			<policedistrict>SOUTHEASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;3250 FAYETTE ST&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/15" _id="15" _position="15" _uuid="705E73A1-7A6B-4B83-9B2E-7AF74EA180F6">
+			<name>SAFEWAY   (STORE #1481)</name>
+			<type>Full Supermarket</type>
+			<zipcode>21224</zipcode>
+			<neighborhood>Canton</neighborhood>
+			<councildistrict>1</councildistrict>
+			<policedistrict>SOUTHEASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;2610 BOSTON ST&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/16" _id="16" _position="16" _uuid="2B77A422-2E9B-40B5-9854-269A0A3F86EE">
+			<name>GIANT FOOD STORE #124</name>
+			<type>Full Supermarket</type>
+			<zipcode>21211</zipcode>
+			<neighborhood>Hampden</neighborhood>
+			<councildistrict>14</councildistrict>
+			<policedistrict>NORTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;711 40TH ST&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/17" _id="17" _position="17" _uuid="CE8CF94C-B39D-4825-B37A-44810591B2E0">
+			<name>SUPERFRESH</name>
+			<type>Full Supermarket</type>
+			<zipcode>21211</zipcode>
+			<neighborhood>Hoes Heights</neighborhood>
+			<councildistrict>14</councildistrict>
+			<policedistrict>NORTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;1020 41ST ST&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/18" _id="18" _position="18" _uuid="0E5B0B8F-F904-40A7-86A1-1E433844D5B3">
+			<name>GIANT FOODS #303</name>
+			<type>Full Supermarket</type>
+			<zipcode>21218</zipcode>
+			<neighborhood>Better Waverly</neighborhood>
+			<councildistrict>14</councildistrict>
+			<policedistrict>NORTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;601 33RD ST&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/19" _id="19" _position="19" _uuid="1C1C10C9-EC9A-4873-9FBB-7B5E41A3B369">
+			<name>SAVE-A-LOT</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21213</zipcode>
+			<neighborhood>Belair-Edison</neighborhood>
+			<councildistrict>13</councildistrict>
+			<policedistrict>NORTHEASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;4001 ERDMAN AVE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/20" _id="20" _position="20" _uuid="C3B99800-AFB6-4298-9333-F13C58AE1995">
+			<name>WHOLE FOODS MARKET</name>
+			<type>Full Supermarket</type>
+			<zipcode>21209</zipcode>
+			<neighborhood>Sabina-Mattfeldt</neighborhood>
+			<councildistrict>5</councildistrict>
+			<policedistrict>NORTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;1330 SMITH AVE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/21" _id="21" _position="21" _uuid="2680ED79-CA24-4C28-BCF8-E2576DBE0656">
+			<name>STOP SHOP SAVE FOOD MARKET</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21239</zipcode>
+			<neighborhood>Glen Oaks</neighborhood>
+			<councildistrict>4</councildistrict>
+			<policedistrict>NORTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;5600 THE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/22" _id="22" _position="22" _uuid="1497BF80-38CC-451C-B890-4C57EFFBDE6E">
+			<name>MARS SUPER MARKETS INC.</name>
+			<type>Small Supermarket</type>
+			<zipcode>21239</zipcode>
+			<neighborhood>Loch Raven</neighborhood>
+			<councildistrict>4</councildistrict>
+			<policedistrict>NORTHEASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;1700 NORTHERN PKWY&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/23" _id="23" _position="23" _uuid="A9331002-4DB2-487A-B485-86567B6730F3">
+			<name>STOP, SHOP &amp; SAVE</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21205</zipcode>
+			<neighborhood>Gay Street</neighborhood>
+			<councildistrict>12</councildistrict>
+			<policedistrict>EASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;929 CAROLINE ST&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/24" _id="24" _position="24" _uuid="0D611F88-D8CD-403D-B19F-7D79B2C2EAD5">
+			<name>BAINES STOP SHOP &amp; SAVE #04</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21215</zipcode>
+			<neighborhood>Central Park Heights</neighborhood>
+			<councildistrict>6</councildistrict>
+			<policedistrict>NORTHWESTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;2701 COLD SPRING LN&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/25" _id="25" _position="25" _uuid="14A9BB0F-484E-41AA-9402-F3C824E61628">
+			<name>SAFEWAY STORES, INC. #1153</name>
+			<type>Full Supermarket</type>
+			<zipcode>21223</zipcode>
+			<neighborhood>Washington Village</neighborhood>
+			<councildistrict>9</councildistrict>
+			<policedistrict>SOUTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;1205 PRATT ST&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/26" _id="26" _position="26" _uuid="E77F0DC6-21CC-44CF-A9B8-A40BFE3C167F">
+			<name>GIANT FOOD STORE #145</name>
+			<type>Full Supermarket</type>
+			<zipcode>21206</zipcode>
+			<neighborhood>Frankford</neighborhood>
+			<councildistrict>2</councildistrict>
+			<policedistrict>NORTHEASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;5150 SINCLAIR LN&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/27" _id="27" _position="27" _uuid="73BCCF96-D7EC-496B-B527-B1E2D9A32CD3">
+			<name>BI-RITE</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21206</zipcode>
+			<neighborhood>Glenham-Belford</neighborhood>
+			<councildistrict>2</councildistrict>
+			<policedistrict>NORTHEASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;5950 BELAIR RD&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/28" _id="28" _position="28" _uuid="3A765CAD-ABD1-459A-9A3A-FFFF0A1E8A7F">
+			<name>EDDIE'S SUPERMARKET</name>
+			<type>Small Supermarket</type>
+			<zipcode>21218</zipcode>
+			<neighborhood>Charles Village</neighborhood>
+			<councildistrict>14</councildistrict>
+			<policedistrict>NORTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;3117 ST PAUL ST&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/29" _id="29" _position="29" _uuid="30EC2918-A70B-4243-8836-A0A6D4DBF701">
+			<name>SUPER FRESH FOOD MARKETS #813</name>
+			<type>Full Supermarket</type>
+			<zipcode>21223</zipcode>
+			<neighborhood>Millhill</neighborhood>
+			<councildistrict>9</councildistrict>
+			<policedistrict>SOUTHWESTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;2495 FREDERICK AVE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/30" _id="30" _position="30" _uuid="AD5E8A44-E771-4EF2-9048-8AFCCC1A52C2">
+			<name>FOOD KING SUPERMARKET</name>
+			<type>Small Supermarket</type>
+			<zipcode>21227</zipcode>
+			<neighborhood>Cherry Hill</neighborhood>
+			<councildistrict>10</councildistrict>
+			<policedistrict>SOUTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;3400 ANNAPOLIS RD&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/31" _id="31" _position="31" _uuid="7052EB2C-AB71-4529-958E-E6745E68C9AB">
+			<name>SAVE-A-LOT</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21230</zipcode>
+			<neighborhood>Washington Village</neighborhood>
+			<councildistrict>11</councildistrict>
+			<policedistrict>SOUTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;717 WASHINGTON BLVD&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/32" _id="32" _position="32" _uuid="2AE12B67-951E-446D-9F3B-95B931D79B00">
+			<name>FOOD KING SUPERMARKET</name>
+			<type>Small Supermarket</type>
+			<zipcode>21215</zipcode>
+			<neighborhood>Seton Business Park</neighborhood>
+			<councildistrict>5</councildistrict>
+			<policedistrict>NORTHWESTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;5700 WABASH AVE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/33" _id="33" _position="33" _uuid="C5462F98-31F5-4B7D-AAFE-99BBD0993CA8">
+			<name>STOP, SHOP &amp; SAVE</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21215</zipcode>
+			<neighborhood>Mondawmin</neighborhood>
+			<councildistrict>7</councildistrict>
+			<policedistrict>WESTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;2301 LIBERTY HEIGHTS AVE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/34" _id="34" _position="34" _uuid="9EBC8965-7D33-4112-B970-2E5BF2E1A8CF">
+			<name>STOP, SHOP &amp; SAVE</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21216</zipcode>
+			<neighborhood>Mount Holly</neighborhood>
+			<councildistrict>7</councildistrict>
+			<policedistrict>SOUTHWESTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;3427 CLIFTON AVE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/35" _id="35" _position="35" _uuid="ABD1DA6E-DAD5-47CD-BD08-BAD9332B47A4">
+			<name>SAVE-A-LOT</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21215</zipcode>
+			<neighborhood>Reisterstown Station</neighborhood>
+			<councildistrict>5</councildistrict>
+			<policedistrict>NORTHWESTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;6836 REISTERSTOWN RD&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/36" _id="36" _position="36" _uuid="07C850C2-81E2-44F9-B9BE-0AA96B5F8E26">
+			<name>SAVE-A-LOT</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21218</zipcode>
+			<neighborhood>Charles North</neighborhood>
+			<councildistrict>12</councildistrict>
+			<policedistrict>NORTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;2008 MARYLAND AVE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/37" _id="37" _position="37" _uuid="769B4937-1668-4013-956B-86AE129A5DD2">
+			<name>SAFEWAY, INC. # 1513</name>
+			<type>Full Supermarket</type>
+			<zipcode>21214</zipcode>
+			<neighborhood>Beverly Hills</neighborhood>
+			<councildistrict>3</councildistrict>
+			<policedistrict>NORTHEASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;4401 HARFORD RD&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/38" _id="38" _position="38" _uuid="96BC2B94-DDEB-4949-9921-7E689E5AFA21">
+			<name>EDDIE'S SUPER MARKET</name>
+			<type>Small Supermarket</type>
+			<zipcode>21210</zipcode>
+			<neighborhood>Wyndhurst</neighborhood>
+			<councildistrict>6</councildistrict>
+			<policedistrict>NORTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;5113 ROLAND AVE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/39" _id="39" _position="39" _uuid="1AC66A09-E8D9-4CA6-AD99-DA56ACF13199">
+			<name>SAVE-A-LOT</name>
+			<type>Limited Supermarket</type>
+			<zipcode>21218</zipcode>
+			<neighborhood>Hillen</neighborhood>
+			<councildistrict>3</councildistrict>
+			<policedistrict>NORTHEASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;1500 HAVENWOOD&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/40" _id="40" _position="40" _uuid="A19F8489-1CED-471C-BAF3-DA68E0C6AF38">
+			<name>WHOLE FOODS MARKET</name>
+			<type>Full Supermarket</type>
+			<zipcode>21202</zipcode>
+			<neighborhood>Inner Harbor</neighborhood>
+			<councildistrict>1</councildistrict>
+			<policedistrict>SOUTHEASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;1001 FLEET ST&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/41" _id="41" _position="41" _uuid="9C9CFC89-B43C-47AB-A9BE-2FFB8AD4E457">
+			<name>FOOD KING</name>
+			<type>Small Supermarket</type>
+			<zipcode>21239</zipcode>
+			<neighborhood>Loch Raven</neighborhood>
+			<councildistrict>4</councildistrict>
+			<policedistrict>NORTHEASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;5830 HILLEN RD&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/42" _id="42" _position="42" _uuid="5A52AFCD-8551-4A96-8659-DC0048762555">
+			<name>GIANT FOOD # 397</name>
+			<type>Full Supermarket</type>
+			<zipcode>21215</zipcode>
+			<neighborhood>Reisterstown Station</neighborhood>
+			<councildistrict>5</councildistrict>
+			<policedistrict>NORTHWESTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;6620 REISTERSTOWN RD&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/43" _id="43" _position="43" _uuid="0912E4BA-4A73-4498-BEF6-C8D7547B7C0F">
+			<name>HIGHLANDTOWN  GROCERY  &amp;  DELI</name>
+			<type>Small Supermarket</type>
+			<zipcode>21224</zipcode>
+			<neighborhood>Baltimore Highlands</neighborhood>
+			<councildistrict>1</councildistrict>
+			<policedistrict>SOUTHEASTERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;19 HIGHLAND AVE&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+		<row _address="http://data.baltimorecity.gov/resource/uuwk-975y/44" _id="44" _position="44" _uuid="80C84894-DDBE-4069-BC6E-61A4AADB5E39">
+			<name>SHOPPERS</name>
+			<type>Full Supermarket</type>
+			<zipcode>21230</zipcode>
+			<neighborhood>Riverside</neighborhood>
+			<councildistrict>10</councildistrict>
+			<policedistrict>SOUTHERN</policedistrict>
+			<location_1 human_address="{&quot;address&quot;:&quot;900 Fort Ave&quot;,&quot;city&quot;:&quot;Baltimore&quot;,&quot;state&quot;:&quot;MD&quot;,&quot;zip&quot;:&quot;&quot;}" needs_recoding="true"/>
+		</row>
+	</row>
+</response>

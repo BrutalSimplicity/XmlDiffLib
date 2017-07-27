@@ -113,6 +113,44 @@ namespace XmlDiffLib.Tests {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;CollegeTranscript xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns=&quot;urn:org:pesc:message:CollegeTranscript:v1.6.0&quot;&gt;
+        ///	&lt;TransmissionData xmlns=&quot;&quot;&gt;
+        ///		&lt;DocumentID&gt;050330001&lt;/DocumentID&gt;
+        ///		&lt;CreatedDateTime&gt;2005-02-02T10:04:29-05:00&lt;/CreatedDateTime&gt;
+        ///		&lt;DocumentTypeCode&gt;RequestedRecord&lt;/DocumentTypeCode&gt;
+        ///		&lt;TransmissionType&gt;Original&lt;/TransmissionType&gt;
+        ///		&lt;Source&gt;
+        ///			&lt;Organization&gt;
+        ///				&lt;ATP&gt;006882&lt;/ATP&gt;
+        ///				&lt;Lo [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string exampleC {
+            get {
+                return ResourceManager.GetString("exampleC", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+        ///&lt;response&gt;
+        ///	&lt;row&gt;
+        ///		&lt;row _address=&quot;http://data.baltimorecity.gov/resource/uuwk-975y/1&quot; _id=&quot;1&quot; _position=&quot;1&quot; _uuid=&quot;4B241118-A114-4AA2-893F-59059022B5B6&quot;&gt;
+        ///			&lt;name&gt;SAVE-A-LOT&lt;/name&gt;
+        ///			&lt;type&gt;Limited Supermarket&lt;/type&gt;
+        ///			&lt;zipcode&gt;21217&lt;/zipcode&gt;
+        ///			&lt;neighborhood&gt;Bolton Hill&lt;/neighborhood&gt;
+        ///			&lt;councildistrict&gt;11&lt;/councildistrict&gt;
+        ///			&lt;policedistrict&gt;CENTRAL&lt;/policedistrict&gt;
+        ///			&lt;location_1 human_address=&quot;{&amp;quot;address&amp;quot;:&amp;quot;250 MCMECHEN st&amp;quot;,&amp;quot;ci [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string exampleD {
+            get {
+                return ResourceManager.GetString("exampleD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;ModulePosting
         ///	CPKFile=&quot;&quot;
         ///	Mode=&quot;Test&quot;
@@ -135,8 +173,7 @@ namespace XmlDiffLib.Tests {
         ///		GenericFinanceAPRCharge2=&quot;0&quot;
         ///		GenericFinanceAPR_FlatChargeAmount=&quot;31&quot;
         ///		GenericFinanceAPR_FlatChargeAmount2=&quot;31&quot;
-        ///		GenericFinanceAmountNotFinanced=&quot;100&quot;
-        ///		GenericFinanceAmou [rest of string was truncated]&quot;;.
+        ///		GenericFinanceAmountNotFinanced=&quot;100 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HAAR01000 {
             get {
@@ -167,8 +204,7 @@ namespace XmlDiffLib.Tests {
         ///		GenericFinanceAPRCharge2=&quot;0&quot;
         ///		GenericFinanceAPR_FlatChargeAmount=&quot;31&quot;
         ///		GenericFinanceAPR_FlatChargeAmount2=&quot;31&quot;
-        ///		GenericFinanceAmountNotFinanced=&quot;100&quot;
-        ///		GenericFinanceAmou [rest of string was truncated]&quot;;.
+        ///		GenericFinanceAmountNotFinanced=&quot;100 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HAAR01001 {
             get {

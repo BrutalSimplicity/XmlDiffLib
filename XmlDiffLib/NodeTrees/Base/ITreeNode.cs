@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
 namespace XmlDiffLib.NodeTrees.Base
 {
-  public interface ITreeNode : IEnumerable<ITreeNode>
+  public interface ITreeNode : IEnumerable
   {
     List<ITreeNode> Children { get; }
     string Label { get; }

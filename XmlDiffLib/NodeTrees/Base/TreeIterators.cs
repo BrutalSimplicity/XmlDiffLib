@@ -7,57 +7,55 @@ namespace XmlDiffLib.NodeTrees.Base
 {
   public class TreeIterators
   {
+    // My own try at this, didn't get it quite right, so I borrowed from here.
+    // https://blogs.msdn.microsoft.com/daveremy/2010/03/16/non-recursive-post-order-depth-first-traversal-in-c/
     public static IEnumerable<ITreeNode> PostOrderTraversal(ITreeNode rootNode)
     {
-      Stack<ITreeNode> nodeStack = new Stack<ITreeNode>();
-      Stack<List<ITreeNode>> lastVisitedStack = new Stack<List<ITreeNode>>();
-      ITreeNode currNode = rootNode;
-      List<ITreeNode> lastVisited = new List<ITreeNode>();
+      if (rootNode == null)
+        yield return null;
 
-      if (rootNode != null)
+      var toVisit = new Stack<ITreeNode>();
+      var visitedAncestors = new Stack<ITreeNode>();
+
+      toVisit.Push(rootNode);
+      while (toVisit.Count > 0)
       {
-        while (nodeStack.Count > 0 || currNode != null)
+        var node = toVisit.Peek();
+
+        // if the node has children add them to the list to be visited
+        if (node.Children.Count > 0)
         {
-          // Travel down descendants until you can't travel anymore
-          if (currNode != null)
+          // if we are visiting this node for the first time, grab 
+          // its children and save it to the visited ancestors so that
+          // we can do the **real** work when we visit them again
+          // (on the way back up the tree)
+          if (visitedAncestors.PeekOrDefault() != node)
           {
-            // save state before moving to the next descendant
-            nodeStack.Push(currNode);
-
-            // Make sure you move to a descendant you haven't visited yet
-            if (currNode.Children != null)
-              currNode = currNode.Children.Where(n => !lastVisited.Contains(n)).FirstOrDefault();
-
-            // Save the state of all the siblings you've visited
-            lastVisitedStack.Push(lastVisited);
-
-            lastVisited = new List<ITreeNode>();
+            visitedAncestors.Push(node);
+            toVisit.PushReverse(node.Children);
+            continue;
           }
-          else
-          {
-            // Check to see if there are any siblings who haven't been visited yet,
-            // if so let's visit them first.
-            var peekNode = nodeStack.Peek();
-            var otherNode = peekNode.Children.Where(n => !lastVisited.Contains(n)).FirstOrDefault();
-            if (otherNode != null)
-            {
-              currNode = otherNode;
-            }
-            else
-            {
-              // Visit the node
-              yield return peekNode;
-
-              // Since we're about to move back up the tree, 
-              // we need to restore the previous state
-              lastVisited = lastVisitedStack.Pop();
-
-              // Add the visited node to the list of visited
-              lastVisited.Add(nodeStack.Pop());
-            }
-          }
+          visitedAncestors.Pop();
         }
+ 
+        // do work
+        yield return node;
+        toVisit.Pop();
       }
+    }
+  }
+
+  internal static class TreeIteratorExtensions
+  {
+    public static ITreeNode PeekOrDefault(this Stack<ITreeNode> stack)
+    {
+      return stack.Count == 0 ? null : stack.Peek();
+    }
+
+    public static void PushReverse(this Stack<ITreeNode> stack, List<ITreeNode> children)
+    {
+      foreach (var child in children.ToArray().Reverse())
+        stack.Push(child);
     }
   }
 }

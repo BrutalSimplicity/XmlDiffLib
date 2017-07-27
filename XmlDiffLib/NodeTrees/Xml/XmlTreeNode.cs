@@ -11,8 +11,8 @@ namespace XmlDiffLib.NodeTrees.Xml
 {
   public enum XmlTreeNodeType
   {
+    Root,
     Attribute,
-    CDATA,
     Comment,
     Element,
     Text
@@ -29,7 +29,7 @@ namespace XmlDiffLib.NodeTrees.Xml
     private void Create(XPathNavigator node, INameResolver resolver)
     {
       Children = new List<ITreeNode>();
-      Attributes = new List<ITreeNode>();
+      Attributes = new List<XmlTreeNode>();
       if (node.HasChildren)
       {
         var iterNode = node.Clone();
@@ -63,17 +63,17 @@ namespace XmlDiffLib.NodeTrees.Xml
       }
     }
 
-    public List<ITreeNode> Attributes { get; private set; }
+    public List<XmlTreeNode> Attributes { get; private set; }
     public List<ITreeNode> Children { get; private set; }
     public string Label { get; private set; }
     public string Type { get; private set; }
     public int LineNumber { get; private set; }
     public int ColumnNumber { get; private set; }
-    public XmlNodeType NodeType
+    public XmlTreeNodeType NodeType
     {
       get
       {
-        return (XmlNodeType)Enum.Parse(typeof(XmlNodeType), Type);
+        return (XmlTreeNodeType)Enum.Parse(typeof(XmlTreeNodeType), Type);
       }
     }
 
@@ -95,10 +95,10 @@ namespace XmlDiffLib.NodeTrees.Xml
       return null;
     }
 
-    public IEnumerator<ITreeNode> GetEnumerator()
+    public IEnumerator<XmlTreeNode> GetEnumerator()
     {
       foreach (var node in TreeIterators.PostOrderTraversal(this))
-        yield return node;
+        yield return (XmlTreeNode)node;
     }
       
 

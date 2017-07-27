@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CollegeTranscript xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:org:pesc:message:CollegeTranscript:v1.6.0">
+	<TransmissionData xmlns="">
+		<DocumentID>050330001</DocumentID>
+		<CreatedDateTime>2005-02-02T10:04:29-05:00</CreatedDateTime>
+		<DocumentTypeCode>RequestedRecord</DocumentTypeCode>
+		<TransmissionType>Original</TransmissionType>
+		<Source>
+			<Organization>
+				<ATP>006882</ATP>
+				<LocalOrganizationID>
+					<LocalOrganizationIDCode>123456</LocalOrganizationIDCode>
+					<LocalOrganizationIDQualifier>TX</LocalOrganizationIDQualifier>
+				</LocalOrganizationID>
+				<OrganizationName>THE UNIVERSITY OF TEXAS AT AUSTIN</OrganizationName>
+				<Contacts>
+					<Address>
+						<AddressLine>Office of the Registrar</AddressLine>
+						<City>Austin</City>
+						<StateProvinceCode>TX</StateProvinceCode>
+						<PostalCode>78712</PostalCode>
+						<AttentionLine>Jane Shaugness</AttentionLine>
+					</Address>
+					<Phone>
+						<AreaCityCode>512</AreaCityCode>
+						<PhoneNumber>4757638</PhoneNumber>
+					</Phone>
+					<FaxPhone>
+						<AreaCityCode>512</AreaCityCode>
+						<PhoneNumber>4757600</PhoneNumber>
+					</FaxPhone>
+					<Email>
+						<EmailAddress>Registrar@mail.utexas.edu</EmailAddress>
+					</Email>
+					<URL>
+						<URLAddress>www.utexas.edu</URLAddress>
+					</URL>
+				</Contacts>
+				<Accreditation>
+					<AccreditingBodyCode>SACS</AccreditingBodyCode>
+					<AccreditingBodyName>Southern Association of Colleges and Schools</AccreditingBodyName>
+				</Accreditation>
+			</Organization>
+		</Source>
+		<Destination>
+			<Organization>
+				<FICE>001506</FICE>
+				<LocalOrganizationID>
+					<LocalOrganizationIDCode>1234</LocalOrganizationIDCode>
+					<LocalOrganizationIDQualifier>FL</LocalOrganizationIDQualifier>
+				</LocalOrganizationID>
+				<OrganizationName>Miami Dade College</OrganizationName>
+			</Organization>
+		</Destination>
+		<RequestTrackingID>23456778009</RequestTrackingID>
+	</TransmissionData>
+	<Student xmlns="">
+		<Person>
+			<SSN>100000000</SSN>
+			<Birth>
+				<BirthDate>1967-07-14</BirthDate>
+			</Birth>
+			<Name>
+				<NameCode>Legal</NameCode>
+				<FirstName>Test</FirstName>
+				<MiddleName>Record</MiddleName>
+				<MiddleName>Test</MiddleName>
+				<LastName>Speede</LastName>
+				<NameSuffix>IV</NameSuffix>
+			</Name>
+			<HighSchool>
+				<OrganizationName>AUSTIN HIGH SCHOOL</OrganizationName>
+				<CEEBACT>440320</CEEBACT>
+			</HighSchool>
+			<Contacts>
+				<Address>
+					<AddressLine>1223 University Dr</AddressLine>
+					<City>Austin</City>
+					<StateProvinceCode>TX</StateProvinceCode>
+					<PostalCode>78211</PostalCode>
+					<ExpirationDate>2009-06-15</ExpirationDate>
+				</Address>
+				<Email>
+					<EmailAddress>TestSpeede@aol.com</EmailAddress>
+				</Email>
+			</Contacts>
+			<Gender>
+				<GenderCode>Female</GenderCode>
+			</Gender>
+			<Deceased>
+				<DeceasedIndicator>true</DeceasedIndicator>
+			</Deceased>
+		</Person>
+		<AcademicRecord>
+			<School>
+				<OrganizationName>AUSTIN HIGH SCHOOL</OrganizationName>
+				<CEEBACT>440320</CEEBACT>
+				<SchoolLevel>Secondary</SchoolLevel>
+				<NoteMessage>LOCATION: AUSTIN, TX</NoteMessage>
+			</School>
+			<AcademicAward>
+				<AcademicAwardLevel>B18</AcademicAwardLevel>
+				<AcademicAwardDate>1985-05-01</AcademicAwardDate>
+				<AcademicAwardTitle>Standard High School Diploma</AcademicAwardTitle>
+				<AcademicCompletionIndicator>true</AcademicCompletionIndicator>
+			</AcademicAward>
+		</AcademicRecord>
+		<AcademicRecord>
+			<School>
+				<OrganizationName>AUSTIN COMMUNITY COLLEGE</OrganizationName>
+				<ATP>006759</ATP>
+				<SchoolOverrideCode>Transfer</SchoolOverrideCode>
+				<SchoolLevel>Postsecondary</SchoolLevel>
+				<NoteMessage>ATTENDED: 19880601-19880831</NoteMessage>
+			</School>
+		</AcademicRecord>
+		<AcademicRecord>
+			<School>
+				<OrganizationName>TEXAS A and M UNIVERSITY COLLEGE STATION</OrganizationName>
+				<ATP>006003</ATP>
+				<SchoolOverrideCode>Transfer</SchoolOverrideCode>
+				<SchoolLevel>Postsecondary</SchoolLevel>
+				<NoteMessage>ATTENDED: 19980901-19981231</NoteMessage>
+			</School>
+		</AcademicRecord>
+		<AcademicRecord>
+			<AcademicSummary>
+				<AcademicSummaryType>All</AcademicSummaryType>
+				<AcademicSummaryLevel>Undergraduate</AcademicSummaryLevel>
+				<GPA>
+					<CreditHoursAttempted>159</CreditHoursAttempted>
+					<CreditHoursEarned>136</CreditHoursEarned>
+					<CreditUnit>Semester</CreditUnit>
+					<GradePointAverage>3.0915</GradePointAverage>
+					<CreditHoursforGPA>153</CreditHoursforGPA>
+				</GPA>
+			</AcademicSummary>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>1985-09</SessionDesignator>
+					<SessionDesignatorSuffix>1</SessionDesignatorSuffix>
+				</AcademicSessionDetail>
+				<School>
+					<OrganizationName>TEXAS A and M UNIVERSITY COLLEGE STATION </OrganizationName>
+					<ATP>006003</ATP>
+					<SchoolOverrideCode>Transfer</SchoolOverrideCode>
+				</School>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester  </CourseCreditUnits>
+					<CourseCreditLevel>LowerDivision</CourseCreditLevel>
+					<CourseCreditValue>4</CourseCreditValue>
+					<CourseCreditEarned>4</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseRepeatCode>NotCountedOther</CourseRepeatCode>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>SPN</CourseSubjectAbbreviation>
+					<CourseNumber>406</CourseNumber>
+					<OriginalCourseID>SPAN 105</OriginalCourseID>
+					<CourseTitle>BEGINNING SPANISH 1</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester  </CourseCreditUnits>
+					<CourseCreditLevel>LowerDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseRepeatCode>NotCountedOther</CourseRepeatCode>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>HIS</CourseSubjectAbbreviation>
+					<CourseNumber>315K</CourseNumber>
+					<OriginalCourseID>HIST 105</OriginalCourseID>
+					<CourseTitle>HISTORY OF THE US 1</CourseTitle>
+				</Course>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>1986-01</SessionDesignator>
+					<SessionDesignatorSuffix>1</SessionDesignatorSuffix>
+				</AcademicSessionDetail>
+				<School>
+					<OrganizationName>TEXAS A and M UNIVERSITY COLLEGE STATION </OrganizationName>
+					<ATP>006003</ATP>
+					<SchoolOverrideCode>Transfer</SchoolOverrideCode>
+				</School>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester</CourseCreditUnits>
+					<CourseCreditLevel>LowerDivision</CourseCreditLevel>
+					<CourseCreditValue>4</CourseCreditValue>
+					<CourseCreditEarned>4</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseRepeatCode>NotCountedOther</CourseRepeatCode>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>SPN</CourseSubjectAbbreviation>
+					<CourseNumber>407</CourseNumber>
+					<OriginalCourseID>SPAN 106</OriginalCourseID>
+					<CourseTitle>BEGINNING SPANISH 2</CourseTitle>
+				</Course>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>1986-09</SessionDesignator>
+					<SessionDesignatorSuffix>1</SessionDesignatorSuffix>
+					<SessionName>FALL SEMESTER 1986</SessionName>
+					<SessionType>Semester</SessionType>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>NATURAL SCIENCES</AcademicProgramName>
+				</AcademicProgram>
+				<AcademicSummary>
+					<NoteMessage>EFFECTIVE SPRING 1987 SCHOLASTIC PROBATION</NoteMessage>
+					<Delinquencies>ProbationGPA</Delinquencies>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>1986-09</SessionDesignator>
+					<SessionDesignatorSuffix>2</SessionDesignatorSuffix>
+					<SessionName>FALL SEMESTER 1986</SessionName>
+					<SessionType>Semester</SessionType>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>ENGINERING</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester</CourseCreditUnits>
+					<CourseCreditLevel>LowerDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>GOV</CourseSubjectAbbreviation>
+					<CourseNumber>310L</CourseNumber>
+					<CourseTitle>AMERICAN GOVERNMENT</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester</CourseCreditUnits>
+					<CourseCreditLevel>LowerDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>0</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>F</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>HIS</CourseSubjectAbbreviation>
+					<CourseNumber>309K</CourseNumber>
+					<CourseTitle>WESTERN CIV IN MEDIEVAL TIMES</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester</CourseCreditUnits>
+					<CourseCreditLevel>LowerDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>0</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>F</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>M</CourseSubjectAbbreviation>
+					<CourseNumber>305G</CourseNumber>
+					<CourseTitle>ELEM FUNCTIONS-COORD GEOMETRY</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<GPA>
+						<CreditHoursAttempted>13</CreditHoursAttempted>
+						<CreditHoursEarned>7</CreditHoursEarned>
+						<CreditUnit>Semester</CreditUnit>
+						<GradePointAverage>1.3076</GradePointAverage>
+						<CreditHoursforGPA>13</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>1988-01</SessionDesignator>
+					<SessionDesignatorSuffix>2</SessionDesignatorSuffix>
+					<SessionName>SPRING SEMESTER 1988</SessionName>
+					<SessionType>Semester</SessionType>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>LIBERAL ARTS</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester</CourseCreditUnits>
+					<CourseCreditLevel>UpperDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>GOV</CourseSubjectAbbreviation>
+					<CourseNumber>320K</CourseNumber>
+					<CourseTitle>AMER CONSTITUTIONAL DEVEL</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryLevel>Undergraduate</AcademicSummaryLevel>
+					<GPA>
+						<CreditHoursAttempted>15</CreditHoursAttempted>
+						<CreditHoursEarned>15</CreditHoursEarned>
+						<CreditUnit>Semester</CreditUnit>
+						<GradePointAverage>3.4</GradePointAverage>
+						<CreditHoursforGPA>15</CreditHoursforGPA>
+					</GPA>
+					<NoteMessage>EFFECTIVE SUMMER 1988 PROBATION ENDED </NoteMessage>
+					<Delinquencies>GoodStanding</Delinquencies>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>1988-06</SessionDesignator>
+					<SessionDesignatorSuffix>1</SessionDesignatorSuffix>
+					<SessionName>SUMMER SEMESTER 1988</SessionName>
+					<SessionType>SummerSession</SessionType>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>LIBERAL ARTS</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>CreditByExam</CourseCreditBasis>
+					<CourseCreditUnits>Semester</CourseCreditUnits>
+					<CourseCreditLevel>UpperDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>HIS</CourseSubjectAbbreviation>
+					<CourseNumber>346K</CourseNumber>
+					<CourseTitle>LATIN AMERICA BEFORE 1810</CourseTitle>
+					<CourseOverrideSchool>
+						<OrganizationName>AUSTIN COMMUNITY COLLEGE</OrganizationName>
+						<ATP>006759</ATP>
+					</CourseOverrideSchool>
+				</Course>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>1988-06</SessionDesignator>
+					<SessionDesignatorSuffix>2</SessionDesignatorSuffix>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>LIBERAL ARTS</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester</CourseCreditUnits>
+					<CourseCreditLevel>LowerDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseRepeatCode>NotCountedOther</CourseRepeatCode>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>E</CourseSubjectAbbreviation>
+					<CourseNumber>316K</CourseNumber>
+					<OriginalCourseID>ENG 2633</OriginalCourseID>
+					<CourseTitle>AMERICAN LITERATURE 1</CourseTitle>
+				</Course>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>1989-01</SessionDesignator>
+					<SessionDesignatorSuffix>1</SessionDesignatorSuffix>
+					<SessionName>SPRING SEMESTER 1989</SessionName>
+					<SessionType>Semester</SessionType>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>LIBERAL ARTS</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester</CourseCreditUnits>
+					<CourseCreditLevel>UpperDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>GOV</CourseSubjectAbbreviation>
+					<CourseNumber>327L</CourseNumber>
+					<CourseTitle>PUBLIC OPINION AND AMER POL</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester</CourseCreditUnits>
+					<CourseCreditLevel>LowerDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>BIO</CourseSubjectAbbreviation>
+					<CourseNumber>301M</CourseNumber>
+					<CourseTitle>ECOLOGY, EVOLUTION, &amp; SOCIETY</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryLevel>Undergraduate</AcademicSummaryLevel>
+					<GPA>
+						<CreditHoursAttempted>12</CreditHoursAttempted>
+						<CreditHoursEarned>12</CreditHoursEarned>
+						<CreditUnit>Semester</CreditUnit>
+						<GradePointAverage>3.75</GradePointAverage>
+						<CreditHoursforGPA>12</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>1989-09</SessionDesignator>
+					<SessionDesignatorSuffix>1</SessionDesignatorSuffix>
+					<SessionName>FALL SEMESTER 1989</SessionName>
+					<SessionType>Semester</SessionType>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>LIBERAL ARTS</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester  </CourseCreditUnits>
+					<CourseCreditLevel>UpperDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>GOV</CourseSubjectAbbreviation>
+					<CourseNumber>357M</CourseNumber>
+					<CourseTitle>JURISPRUDENCE</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester  </CourseCreditUnits>
+					<CourseCreditLevel>UpperDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>GOV</CourseSubjectAbbreviation>
+					<CourseNumber>358</CourseNumber>
+					<CourseTitle>INTRO TO PUBLIC ADMINISTRATION</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester  </CourseCreditUnits>
+					<CourseCreditLevel>UpperDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>HIS</CourseSubjectAbbreviation>
+					<CourseNumber>344D</CourseNumber>
+					<CourseTitle>ENGLAND IN THE MIDDLE AGES</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester  </CourseCreditUnits>
+					<CourseCreditLevel>UpperDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>HIS</CourseSubjectAbbreviation>
+					<CourseNumber>350L</CourseNumber>
+					<CourseTitle>FIRST LADIES IN THE 20TH CEN</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryLevel>Undergraduate</AcademicSummaryLevel>
+					<GPA>
+						<CreditHoursAttempted>12</CreditHoursAttempted>
+						<CreditHoursEarned>12</CreditHoursEarned>
+						<CreditUnit>Semester  </CreditUnit>
+						<GradePointAverage>4</GradePointAverage>
+						<CreditHoursforGPA>12</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2001-01</SessionDesignator>
+					<SessionDesignatorSuffix>1</SessionDesignatorSuffix>
+					<SessionName>SPRING SEMESTER 2001</SessionName>
+					<SessionType>Semester</SessionType>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>INTERNATIONAL EXCHANGE</AcademicProgramName>
+					<NoteMessage>CURRIC: LIBERAL ARTS</NoteMessage>
+				</AcademicProgram>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2001-01</SessionDesignator>
+					<SessionDesignatorSuffix>2</SessionDesignatorSuffix>
+					<SessionName>SPRING SEMESTER 2001</SessionName>
+					<SessionType>Semester</SessionType>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>FINE ARTS</AcademicProgramName>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester  </CourseCreditUnits>
+					<CourseCreditLevel>LowerDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>T D</CourseSubjectAbbreviation>
+					<CourseNumber>303C</CourseNumber>
+					<CourseTitle>TRAINING SPEAKING VOICE-CXS</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester</CourseCreditUnits>
+					<CourseCreditLevel>UpperDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>E</CourseSubjectAbbreviation>
+					<CourseNumber>321</CourseNumber>
+					<CourseTitle>SHAKESPEARE: SELECTED PLAYS</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester  </CourseCreditUnits>
+					<CourseCreditLevel>UpperDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>GOV</CourseSubjectAbbreviation>
+					<CourseNumber>365N</CourseNumber>
+					<CourseTitle>2-IMMIGRATION AND COMPAR POLIT</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester  </CourseCreditUnits>
+					<CourseCreditLevel>LowerDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>TLC</CourseSubjectAbbreviation>
+					<CourseNumber>311</CourseNumber>
+					<CourseTitle>INFORMATION IN CYBERSPACE</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester  </CourseCreditUnits>
+					<CourseCreditLevel>LowerDivision</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>S W</CourseSubjectAbbreviation>
+					<CourseNumber>310</CourseNumber>
+					<CourseTitle>INTRO TO SOCL WORK &amp; SOCL WELF</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<GPA>
+						<CreditHoursAttempted>15</CreditHoursAttempted>
+						<CreditHoursEarned>15</CreditHoursEarned>
+						<CreditUnit>Semester  </CreditUnit>
+						<GradePointAverage>3.6</GradePointAverage>
+						<CreditHoursforGPA>15</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+			<AcademicSession>
+				<AcademicSessionDetail>
+					<SessionDesignator>2001-09</SessionDesignator>
+					<SessionDesignatorSuffix>1</SessionDesignatorSuffix>
+					<SessionName>FALL SEMESTER 2001</SessionName>
+					<SessionType>Semester</SessionType>
+				</AcademicSessionDetail>
+				<AcademicProgram>
+					<AcademicProgramName>INTERNATIONAL EXCHANGE</AcademicProgramName>
+					<NoteMessage>CURRIC: LIBERAL ARTS</NoteMessage>
+				</AcademicProgram>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester  </CourseCreditUnits>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>PHL</CourseSubjectAbbreviation>
+					<CourseNumber>388</CourseNumber>
+					<CourseTitle>CONFERENCE COURSE</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester  </CourseCreditUnits>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>501</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>CR</CourseAcademicGrade>
+					<CourseRepeatCode>NotCountedOther</CourseRepeatCode>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>PHL</CourseSubjectAbbreviation>
+					<CourseNumber>388C</CourseNumber>
+					<CourseTitle>CONFERENCE COURSE</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester  </CourseCreditUnits>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>A</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>SOC</CourseSubjectAbbreviation>
+					<CourseNumber>387J</CourseNumber>
+					<CourseTitle>FUNDAMENTALS OF RESEARCH METHS</CourseTitle>
+				</Course>
+				<Course>
+					<CourseCreditBasis>Regular</CourseCreditBasis>
+					<CourseCreditUnits>Semester  </CourseCreditUnits>
+					<CourseCreditLevel>Graduate</CourseCreditLevel>
+					<CourseCreditValue>3</CourseCreditValue>
+					<CourseCreditEarned>3</CourseCreditEarned>
+					<CourseAcademicGradeScaleCode>25</CourseAcademicGradeScaleCode>
+					<CourseAcademicGrade>B</CourseAcademicGrade>
+					<CourseCIPCode>999</CourseCIPCode>
+					<CourseSubjectAbbreviation>SOC</CourseSubjectAbbreviation>
+					<CourseNumber>389K</CourseNumber>
+					<CourseTitle>3-HUMAN MORTALITY</CourseTitle>
+				</Course>
+				<AcademicSummary>
+					<AcademicSummaryLevel>Undergraduate</AcademicSummaryLevel>
+					<GPA>
+						<CreditHoursAttempted>12</CreditHoursAttempted>
+						<CreditHoursEarned>12</CreditHoursEarned>
+						<CreditUnit>Semester  </CreditUnit>
+						<GradePointAverage>3.6666</GradePointAverage>
+						<CreditHoursforGPA>9</CreditHoursforGPA>
+					</GPA>
+				</AcademicSummary>
+			</AcademicSession>
+		</AcademicRecord>
+	</Student>
+</CollegeTranscript>

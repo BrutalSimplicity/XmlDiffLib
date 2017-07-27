@@ -2,6 +2,7 @@
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Xml;
+using System.Xml.XPath;
 using XmlDiffLib.NodeTrees.Xml;
 [assembly: InternalsVisibleTo("XmlDiffLib.Tests")]
 
@@ -19,13 +20,9 @@ namespace XmlDiffLib.Diff.Xml
     {
       try
       {
-        var sourceDoc = new XmlDocument();
-        var targetDoc = new XmlDocument();
-        sourceDoc.LoadXml(sourceXml);
-        targetDoc.LoadXml(targetXml);
         _options = options ?? new XmlDiffOptions();
-        _sourceNode = XmlTreeBuilder.Build(sourceDoc.DocumentElement.CreateNavigator(), _options);
-        _targetNode = XmlTreeBuilder.Build(targetDoc.DocumentElement.CreateNavigator(), _options);
+        _sourceNode = XmlTreeBuilder.Build(CreateDocumentNavigator(sourceXml, _options), _options);
+        _targetNode = XmlTreeBuilder.Build(CreateDocumentNavigator(targetXml, _options), _options);
         _sourceName = sourceName;
         _targetName = targetName;
       }
@@ -37,6 +34,14 @@ namespace XmlDiffLib.Diff.Xml
       {
         throw new Exception(ex.Message);
       }
+    }
+
+    private XPathNavigator CreateDocumentNavigator(string xml, XmlDiffOptions option)
+    {
+      var reader = XmlReader.Create(new StringReader(xml));
+      var document = new XPathDocument(reader);
+
+      return document.CreateNavigator();
     }
   }
 }
